@@ -17,14 +17,14 @@ import { FaYoutube } from "react-icons/fa";
 
 export const carouseldata = [
   {
-  img:'./src/blog1 (1).jpg',
+  img:'./blog1 (1).jpg',
   title:'Discover A Brand Luxurious Hotel',
   subtitle:'Luxury living',
   btn1:'Our Room',
   btn2:'Book Room',
 },
 {
-  img:'./src/blog1 (1).jpg',
+  img:'./blog1 (1).jpg',
   title:'Discover A Brand Luxurious Hotel',
   subtitle:'Luxury living',
   btn1:'Our Room',
@@ -54,7 +54,7 @@ export const socialIcon =[
 export const roomItem = [
   {
     id: 1,
-    img: "./src/room1.jpg",
+    img: "./room1.jpg",
     price: "$100/night",
     name: "junior suit",
     star: [
@@ -81,7 +81,7 @@ export const roomItem = [
   },
   {
     id: 2,
-    img: "./src/room2.jpg",
+    img: "./room2.jpg",
     price: "$300/night",
     name: "junior suit",
     star: [
@@ -109,7 +109,7 @@ export const roomItem = [
 
   {
     id: 3,
-    img: "./src/room3.jpg",
+    img: "./room3.jpg",
     price: "$200/night",
     name: "junior suit",
     star: [
@@ -209,46 +209,46 @@ export const service = [
     name:'Client Name',
     profession:'Professions',
     icon: <i className="text-warning position-absolute end-0 bottom-0 me-4"><FaQuoteRight/></i>,
-    img:'./src/profile3.jpg',
+    img:'./profile3.jpg',
   },
   {
     description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, corporis .',
     name:'Client Name',
     profession:'Professions',
     icon: <i className="text-warning position-absolute end-0 bottom-0 me-4"><FaQuoteRight/></i>,
-    img:'./src/profile4.jpg',
+    img:'./profile4.jpg',
   },
   {
     description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, corporis .',
     name:'Client Name',
     profession:'Professions',
     icon: <i className="text-warning position-absolute end-0 bottom-0 me-4"><FaQuoteRight/></i>,
-    img:'./src/profile5.jpg',
+    img:'./profile5.jpg',
   },
  ]
 
  export const team = [
   {
-    img:'./src/profile2.jpg',
+    img:'./profile2.jpg',
     name:'Full Name',
     designation :'Designation',
     icon:'',
     
   },
   {
-    img:'./src/profile5.jpg',
+    img:'./profile5.jpg',
     name:'Full Name',
     designation :'Designation',
     icon:'',
   },
   {
-    img:'../src/profile2.jpg',
+    img:'../profile2.jpg',
     name:'Full Name',
     designation :'Designation',
     icon:'',
   },
   {
-    img:'./src/profile4.jpg',
+    img:'./profile4.jpg',
     name:'Full Name',
     designation :'Designation',
     icon:'',
