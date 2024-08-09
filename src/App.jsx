@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import BookNow from './Home/BookNow'
 import Newsletterpage from './pages/Newsletterpage'
 // import Footer from './component/Footer'
-
+import './home/style.css'
 function App() {
   
  
