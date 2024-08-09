@@ -1,0 +1,49 @@
+.custom-navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.logo{
+    color: rgb(255, 170, 0) !important;
+    font-size: 50px !important;
+    margin-left: 100px !important;
+}
+
+
+
+.color{
+    color: white !important;
+    margin-right: 30px !important;
+    font-size: 20px !important;
+    margin: 0 30px !important;
+}
+
+.color:hover{
+    color: rgb(255, 170, 0) !important;
+    transition: 0.3s !important;
+}
+
+
+#basic-nav-dropdown{
+    color: white !important;
+    margin: 0 30px !important;
+    font-size: 20px !important;
+}
+
+#basic-nav-dropdown:hover{
+    color: rgb(255, 170, 0) !important;
+    transition: 0.3s !important;
+}
