@@ -11,7 +11,6 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" >
             <Nav.Link href="#home" className='color'>Home</Nav.Link>
-            <Nav.Link href="#about" className='color'>About</Nav.Link>
             <Nav.Link href="#services" className='color'>Services</Nav.Link>
             <Nav.Link href="#rooms" className='color'>Rooms</Nav.Link>
             <NavDropdown title="Pages" id="basic-nav-dropdown">
