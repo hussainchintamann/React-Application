@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './Home/Home'
-import Navbar from './components/navbar'
+// import Navbar from './components/navbar'
 import Roompage from './pages/Roompage'
 import Servicepage from './pages/Servicepage'
 import Sliderpage from './pages/Sliderpage'
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
      <Routes>
       {/* <Route path='/login' element={<Login/>}/> */}
       {/* <Route path='/register' element={<Register/>}/> */}
