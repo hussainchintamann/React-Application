@@ -35,20 +35,13 @@ const Booknow = () => {
     setChild("");
   };
 
-  const deleteBtn = (id)=>{
-     const filterBookin = booking.filter((element,index)=>{
-      return element.id!== id
-      
-
-    })
-    setBooking(filterBookin)
-  }
+  
 
   
 
   useEffect(() => {
     localStorage.setItem("booking", JSON.stringify(booking));
-  }, [booking]);
+  },[booking]);
 
 
   return (
@@ -124,11 +117,13 @@ const Booknow = () => {
         </div>
       </div>
       <div className="view-container container">
-        Confirmation
+        
         <div className="row">
           <div className="col-md-8">
+          {booking.length < 1 && <div className="bg bg-warning">No item are added yet </div>}
             {booking.length > 0 && (
               <>
+              <h4>Confirm detailed</h4>
                 <div className="table-responsive">
                   <div className="table">
                     <thead>
@@ -140,13 +135,13 @@ const Booknow = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      <ViewTable booking={booking} deleteBtn={deleteBtn} />
+                      <ViewTable booking={booking}  />
                     </tbody>
                   </div>
                 </div>
               </>
             )}
-            {booking.length < 1 && <div>No item are added yet </div>}
+            
           </div>
         </div>
       </div>
