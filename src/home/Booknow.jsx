@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import ViewTable from "./ViewTable";
-// import { Link, Navigate } from 'react-router-dom'
 
 const getDataFromLS = () => {
+  
   const data = localStorage.getItem("booking");
   if (data) {
     return JSON.parse(data);
@@ -12,6 +12,7 @@ const getDataFromLS = () => {
 };
 
 const Booknow = () => {
+  
   const [booking, setBooking] = useState(getDataFromLS());
 
   const [checkIn, setCheckIn] = useState("");
@@ -34,9 +35,21 @@ const Booknow = () => {
     setChild("");
   };
 
+  const deleteBtn = (id)=>{
+     const filterBookin = booking.filter((element,index)=>{
+      return element.id!== id
+      
+
+    })
+    setBooking(filterBookin)
+  }
+
+  
+
   useEffect(() => {
     localStorage.setItem("booking", JSON.stringify(booking));
   }, [booking]);
+
 
   return (
     <div>
@@ -127,7 +140,7 @@ const Booknow = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      <ViewTable booking={booking}/>
+                      <ViewTable booking={booking} deleteBtn={deleteBtn} />
                     </tbody>
                   </div>
                 </div>

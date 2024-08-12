@@ -11,19 +11,21 @@ import Teampage from './pages/Teampage'
 import "bootstrap/dist/css/bootstrap.min.css"
 // import BookNow from './Home/BookNow'
 import Newsletterpage from './pages/Newsletterpage'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import './home/style.css'
+import NavigationBar from './components/navbar'
+
+import CheckOut from './pages/CheckOut'
+import Footer from './components/Footer'
 function App() {
   
  
 
   return (
     <>
-    {/* <Navbar/> */}
+    <NavigationBar/>
      <Routes>
-      {/* <Route path='/login' element={<Login/>}/> */}
-      {/* <Route path='/register' element={<Register/>}/> */}
-      {/* <Route path='/' element={<Protectedroutes/>}> */}
+     
      <Route path='/' element ={<Home/>}/>
      <Route path='Rooms' element ={<Roompage/>}/>
      {/* <Route path='Room/:RoomId' element={<RoomDetail  handleClick={handleClick}/>} /> */}
@@ -32,9 +34,9 @@ function App() {
      <Route path='Slider' element ={<Sliderpage/>}/>
      <Route path='Team' element ={<Teampage/>}/>
      <Route path='Contact' element ={<Newsletterpage/>}/>
+     <Route  path='CheckOut' element={<CheckOut/>}/>
      {/* </Route> */}
      </Routes>
-
      <Footer/>
     </>
   )

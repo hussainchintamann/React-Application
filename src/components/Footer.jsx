@@ -1,15 +1,17 @@
 import React from 'react';
-import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+// import './Footer.css';
+import { FaFacebook } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 const Footer = () => {
     return (
-        
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-section">
-                    <h4>HOTELIER</h4>
+                    <h4>HOTEL</h4>
                     <p>Providing the best hotel services since 1990.</p>
                 </div>
                 <div className="footer-section">
@@ -33,18 +35,19 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Follow Us</h4>
                     <div className="social-icons">
-                        <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-                        <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-                        <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                        <a href="#"><FaFacebook /> </a>
+                        <a href="#"><FaWhatsapp /> </a>
+                        <a href="#"><FaLinkedin /></a>
+                        <a href="#"><FaYoutube /></a>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; 2024 HOTELIER. All Rights Reserved.</p>
+                <p>&copy; 2024 HOTEL. All Rights Reserved.</p>
             </div>
         </footer>
     );
 };
 
 export default Footer;
+ 

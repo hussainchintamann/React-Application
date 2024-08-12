@@ -17,14 +17,14 @@ import { FaYoutube } from "react-icons/fa";
 
 export const carouseldata = [
   {
-  img:'./blog1 (1).jpg',
+  img:'./room1.jpg',
   title:'Discover A Brand Luxurious Hotel',
   subtitle:'Luxury living',
   btn1:'Our Room',
   btn2:'Book Room',
 },
 {
-  img:'./blog1 (1).jpg',
+  img:'./room1.jpg',
   title:'Discover A Brand Luxurious Hotel',
   subtitle:'Luxury living',
   btn1:'Our Room',

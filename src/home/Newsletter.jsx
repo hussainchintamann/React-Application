@@ -9,10 +9,10 @@ const Newsletter = () => {
             <div className="col-lg-10 border rounded p-1 shadow">
                 <div className="bg-white rounded text-center p-5">
                     <h4 className='mb-4'>
-                        Subcribe Our
+                        Contact
                     
                     <span className="text-warning text-uppercase">
-                        Newsletter
+                        Us
                     </span>
                     </h4>
                     <div className="position-relative mx-auto border-light  " style={{maxWidth:'400px'}}>
