@@ -1,5 +1,5 @@
 import React from 'react'
-import Team from '../Home/team'
+import Team from '../home/team'
 
 const Teampage = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Sliders from '../Home/Sliders'
+import Sliders from '../home/Sliders'
 
 const Sliderpage = () => {
   return (

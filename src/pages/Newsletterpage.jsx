@@ -1,5 +1,5 @@
 import React from 'react'
-import Newsletter from '../Home/Newsletter'
+import Newsletter from '../home/Newsletter'
 
 const Newsletterpage = () => {
   return (
