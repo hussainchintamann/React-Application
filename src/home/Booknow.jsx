@@ -135,7 +135,7 @@ const Booknow = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      <ViewTable booking={booking} price={4000+90}  />
+                      <ViewTable booking={booking}   />
                     </tbody>
                   </div>
                 </div>

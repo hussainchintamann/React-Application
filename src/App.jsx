@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './Home/Home'
+import Home from './home/Home'
 import Roompage from './pages/Roompage'
 import Servicepage from './pages/Servicepage'
 import Sliderpage from './pages/Sliderpage'
